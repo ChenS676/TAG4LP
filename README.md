@@ -19,7 +19,7 @@ conda env create -f environment.yml
 ## Pipeline 🎮
 We describe below how to use our repository to perform the experiments reported in the paper. We are also adjusting the style of the repository to make it easier to use.
 (Please complete the ['Datasets'](get-tapedataset.sh) above first)
-### 1. LMGJoint for Link Prediction
+### 1. Bridge-LP for Link Prediction
 You can use Pwc_small Cora PubMed Arxiv_2023 Pwc_medium Ogbn_arxiv Citationv8 ogbn-papers100M.
 
 ```python
@@ -152,7 +152,7 @@ python3 core/gcns/LLM_embedding_ncn_main.py --data photo --cfg core/yamls/photo/
 
 ---
 
-## **LMGJoint**
+## **Bridge-LP**
 #### History
 ```bash
 CUDA_LAUNCH_BLOCKING=1 python core/finetune_embedding_mlp/lm_trainer.py --cfg core/yamls/history/lms/ft-minilm.yaml --decoder core/yamls/history/gcns/ncn.yaml --repeat 1
