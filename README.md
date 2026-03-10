@@ -35,7 +35,9 @@ Training Bridge-LP
 
 To run the Bridge-LP method (using MiniLM) across multiple GPUs via torchrun:
 
+```bash
 WANDB_DISABLED=True CUDA_VISIBLE_DEVICES=0,1,2,3 \
 torchrun --nproc_per_node 4 core/finetune_embedding_mlp/lm_trainer.py \
 --cfg core/yamls/cora/lms/ft-minilm.yaml
+```
 
