@@ -31,8 +31,6 @@ You can use Pwc_small, Cora, PubMed, Arxiv_2023, Pwc_medium, Ogbn_arxiv, Citatio
 
 Our pipeline enables fine-tuning of embeddings and evaluation of link prediction performance. All configuration parameters are managed via YAML files located in core/yamls/.
 
-Training Bridge-LP
-
 To run the Bridge-LP method (using MiniLM) across multiple GPUs via torchrun:
 
 ```bash
