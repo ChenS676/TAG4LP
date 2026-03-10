@@ -1,10 +1,5 @@
 # Bridging Semantics and Structure: A Theoretically Grounded Framework for Link Prediction on TAGs
 
-## Create and activate the environment
-conda env create -f environment.yml
-conda activate tag4lp
-
-
 ## Datasets 🔔
 We collect and construct 8 TAG datasets from Cora, Pubmed, Arxiv\_2023, ogbn-paper100M, citationv8, History, Photo.
 Now you can go to the 'Files and version' in [TAG4LP](https://drive.google.com/file/d/15ZWzRESVpNFowt3zfm3v8-5DGdnMjFzk/view?usp=drive_link) to find the datasets we upload! 
